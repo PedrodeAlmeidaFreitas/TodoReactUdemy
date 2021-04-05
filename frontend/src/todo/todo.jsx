@@ -68,7 +68,6 @@ export default class Todo extends Component {
                     handleChange={this.handleChange}
                     handleSearch={this.handleSearch} />
                 <TodoList 
-                    list={this.state.list} 
                     handleRemove={this.handleRemove} 
                     handleMarkAsDone={this.handleMarkAsDone} 
                     handleMarkAsPending={this.handleMarkAsPending} />
